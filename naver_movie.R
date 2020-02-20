@@ -21,7 +21,7 @@ for(i in 1:2600){
   text_list[[i]]<-text2
   cat("\n",i)
   
-  if(i %% 500){
+  if(i %% 500 == 0){
     final_score<-unlist(score_list)
     final_text<-unlist(text_list)
     
